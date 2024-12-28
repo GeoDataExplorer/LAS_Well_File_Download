@@ -1,0 +1,10 @@
+import os
+import lasio
+import pandas as pd
+
+def process_las_file(las_file, keep_well, keep_curves):
+"""
+  Process a single LAS file and return a DataFrame with the specific well and curve data.
+
+  Args:
+  las_file(str): Path to the LAS file.
